@@ -1,0 +1,13 @@
+# Credentials — never commit. Cloud runs get these as environment variables.
+bin/secrets.env
+
+# Rotating OAuth state. Contains a live refresh token.
+.strava-tokens.json
+.strava-tokens.*
+
+# Telegram getUpdates cursor. Local-only: a cloud routine starts from a fresh
+# clone, so it reads whatever Telegram still retains (24h) — which for a daily
+# task is the right window anyway.
+.tg-offset
+
+.DS_Store
