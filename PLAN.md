@@ -34,7 +34,9 @@ Format: date given · the instruction in his terms · when it bites. Remove a ro
 | 5k / VO2 | 3:30–3:38 |
 | DR track reps (club-set) | 3:13–3:45 |
 
-**Every prescribed run must carry a pace target in min/km — no exceptions**, including easy days. "Easy" alone is not a prescription; write "easy @5:10–5:30".
+**Every prescribed run must carry a pace target in min/km**, including easy days. "Easy" alone is not a prescription; write "easy @5:10–5:30".
+
+One exception: **inside a structured session, don't pace the warm-up, cool-down or recovery floats** — give their distance only. The pace belongs on the work. "4k WU · 3×5k @4:15 off 1k float · 5k CD" is the right level of detail; adding "@5:00–5:20" to each support segment is clutter that hides the rep pace.
 
 Strava run zones (from race pace) — Z1 ≤3.24 m/s, Z2 3.24–3.77, Z3 3.77–4.20, Z4 4.20–4.48, Z5 4.48–4.77, Z6 >4.77
 HR zones (max-HR based): Z1 ≤130, Z2 131–162, Z3 163–178, Z4 179–194, Z5 195+
@@ -97,24 +99,26 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 **MP volume is capped at 18–22 km cumulative in a single long run at peak** — lower than a typical marathon build. This is the deliberate cost of keeping full-effort track every Tuesday plus a threshold parkrun every Saturday. Don't push past it; three quality days a week only works if none of them is maximal.
 
 ### Sunday long run — MP progression
-"MP blocks" is not a prescription. Every Sunday is specified here as **total distance · rep structure · pace · recovery · cumulative MP**, and that is how it must reach him. MP = 4:15/km unless stated.
+"MP blocks" is not a prescription. Every Sunday is specified here as **total distance · rep structure · MP pace · recovery distance · cumulative MP**. MP = 4:15/km unless stated.
 
 | Wk | Sun | Total | Structure | MP km |
 |---|---|---|---|---|
 | 1 | 30 Aug | 20k | all easy @4:50–5:10 | 0 |
-| 2 | 6 Sep | 22k | 4k WU @5:00–5:20 · 3×3k @4:15 off 1k float @5:00 · 3k CD | 9 |
+| 2 | 6 Sep | 22k | 4k WU · 3×3k @4:15 off 1k float · 3k CD | 9 |
 | 3 | 13 Sep | 24k | all aerobic @4:50–5:10, last 4k @4:30 | 0 |
 | 4 ↓ | 20 Sep | 18k | all easy @5:00–5:20 | 0 |
-| 5 | 27 Sep | 26k | 4k WU · 4×3k @4:15 off 1k float @5:00 · 4k CD | 12 |
-| 6 | 4 Oct | 28k | 4k WU · 3×5k @4:15 off 1k float @5:00 · 5k CD | 15 |
-| 7 | 11 Oct | 30k | 5k WU · 2×8k @4:15 off 2k float @5:00 · 5k CD | 16 |
+| 5 | 27 Sep | 26k | 4k WU · 4×3k @4:15 off 1k float · 4k CD | 12 |
+| 6 | 4 Oct | 28k | 4k WU · 3×5k @4:15 off 1k float · 5k CD | 15 |
+| 7 | 11 Oct | 30k | 5k WU · 2×8k @4:15 off 2k float · 5k CD | 16 |
 | 8 ↓ | 18 Oct | ~23k | HM tune-up race + WU/CD — validates MP | — |
-| 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float @5:00 · 2k CD — **birthday, fixed distance** | 18 |
-| 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float @5:00 · 6k CD | 20 |
+| 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float · 2k CD — **birthday, fixed distance** | 18 |
+| 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float · 6k CD | 20 |
 | 11 | 8 Nov | 35k | 11k easy @4:50–5:10 · then 22k @4:15 continuous (may split 11k/11k off a 1k float) · 2k CD | 22 |
 | 12 ↓ | 15 Nov | 25k | all easy @5:00–5:20 | 0 |
 | 13 | 22 Nov | 28k | 4k WU · 2×5k @4:15 off 1k float · 3k @4:01–4:08 · 4k CD | 13 |
 | 14 | 29 Nov | 22k | 15k easy @5:00–5:20 · 5k @4:15 · 2k CD | 5 |
+
+**Don't pace the warm-up, cool-down or floats.** Distances only. He knows what easy feels like and the pace table is above; spelling out "@5:00–5:20" on every support segment clutters the session and buries the number that matters. The pace goes on the work — MP reps, threshold segments, and any run that is *entirely* easy.
 
 If a week shifts, rewrite the affected row here — don't fall back to the phrase "MP blocks".
 
@@ -123,7 +127,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Coaching rules
 1. **Three quality days is a hard ceiling** — Tue track, Sat parkrun, Sun long. Never add a fourth. If he asks for one, or slips one in himself, push back and explain what it costs.
 2. **Never stack hard days.** Mon, Wed, Thu, Fri are easy, always.
-3. **Every run gets a pace target in min/km**, easy days included. Never write a prescription without one.
+3. **Every run gets a pace target in min/km**, easy days included. Never write a prescription without one — but inside a structured session, pace only the work, not the WU/CD/floats (distance alone for those).
 4. **10% rule on weekly volume**, and never raise volume and intensity in the same week.
 5. Easy running stays genuinely easy (5:00–5:30). If easy pace creeps under 4:50 repeatedly, flag it — with three hard days already in the week, this is the single most likely way the block gets wrecked.
 6. **Sunday is the only long run.** No midweek run over 16 km, no long Saturday. Extra midweek volume comes from doubles.

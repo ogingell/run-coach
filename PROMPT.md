@@ -52,13 +52,17 @@ Pull the last 35 days — the current week, the past 4 complete weeks, and enoug
 "26k + MP blocks" is not a session, it's a label. Never send it. Take the row for that Sunday from the **MP progression table** in PLAN.md and give him all of it:
 
 - total distance
-- warm-up distance and pace
-- rep structure — how many, how long, at what pace
-- what the recovery is — distance *and* pace, e.g. "1k float @5:00", not just "float"
-- cool-down distance and pace
+- warm-up distance
+- rep structure — how many, how long, **at what pace**
+- recovery distance, e.g. "off a 1k float"
+- cool-down distance
 - cumulative MP volume for the session, so he can see where it sits against the 18–22 km cap
 
-So: **"28k — 4k WU @5:00–5:20, then 3×5k @4:15 off a 1k float @5:00, 5k CD. 15k at MP."** Every time, including when you mention it in Next week or in the plan table. If a week has shifted and the table row no longer fits, rewrite the row in PLAN.md (Step 7) — don't retreat to vagueness.
+So: **"28k — 4k WU, then 3×5k @4:15 off a 1k float, 5k CD. 15k at MP."** Every time, including in Next week and the plan table.
+
+**Pace the work, not the scaffolding.** The WU, CD and floats get a distance and nothing else. He knows what easy feels like, and a pace on every support segment crowds out the only number he needs to hit. The exception is a run that is *entirely* easy — a plain 20k long run still carries its band, "20k easy @4:50–5:10".
+
+If a week has shifted and the table row no longer fits, rewrite the row in PLAN.md (Step 7) — don't retreat to vagueness.
 
 ## Step 5 — Compose the message
 Use a **Rich Message** (Bot API 10.2) — a JSON array of blocks, not markup. Telegram renders real tables and real collapsible sections, so there is no ASCII alignment to count and no HTML to escape. Write `&` `<` `>` as themselves.
@@ -77,8 +81,8 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
 6. `divider`
 7. `heading` size 5 `"This week"` → a **`table`** of the three quality sessions with status, then one `paragraph` with the easy budget and running total.
 8. `details`, `is_open: false` — **Next week** — contains a `table` of next week's sessions and easy budget.
-9. `details`, `is_open: false` — **Past weeks** — `table` of the last 5 complete weeks (newest first): Wk · w/c · Target · Actual. Pre-block weeks show `—` in Target. Block weeks show target vs actual; if he hit it, no comment needed in the table — the numbers speak.
-10. `details`, `is_open: false` — **Full plan** — contains the 15-week block `table` (week · week commencing · target km · Sunday long run).
+9. `details`, `is_open: false` — **Past weeks** — `table` of the last 5 complete weeks (newest first): Wk · w/c · Target · Actual · status dot. Pre-block weeks show `—` in Target and no dot. Block weeks show target vs actual; no written comment in the table — the numbers and the dot speak.
+10. `details`, `is_open: false` — **Full plan** — contains the 15-week block `table` (week · w/c · target km · Sunday long run · status dot). Take the Sunday column verbatim from the MP progression table in PLAN.md so the two never drift.
 11. `blockquote` — concise countdown at the bottom: X days · X Sunday long runs until Valencia.
 11. `footer` — the standing invitation to reply, or a flag if one is warranted.
 
@@ -87,6 +91,21 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
 **The week's sessions are a table, not a list.** Three rows (Tue track / Sat parkrun / Sun long), columns: Session · Pace · status glyph (✓ if done, – if upcoming). Never add Mon/Wed/Thu/Fri rows, never add bike or swim rows. The easy budget and running total go in the `paragraph` underneath.
 
 **The countdown blockquote.** Compute days from today to 6 Dec 2026, and count remaining Sunday long runs (Sun W1 through Sun W14 = 14 training Sundays; the race itself is W15). Format: `"X days · X Sunday long runs until Valencia"`. Use `marked` on both numbers. This replaces the old italic countdown paragraph at the top — the heading stands alone now.
+
+**Week status dots — how the tables get their colour.** Rich Messages have no colour attribute on text or cells; `marked` is a single fixed highlight, and it's already spoken for as the one-number spotlight. So colour comes from a status dot in its own column, which is the one thing that genuinely renders in colour. Every completed block week carries one, in **Past weeks** and in **Full plan**:
+
+| Dot | Meaning |
+|---|---|
+| 🟢 | hit — actual ≥97% of target |
+| 🟡 | close — 90–96% of target |
+| 🔴 | missed — under 90% of target |
+| ▶ | the week he's in now |
+| ⚪ | still to come |
+| — | pre-block, or no target set |
+
+**On a down week (`↓`), the reduction *is* the target.** Coming in under it is 🟢, not a miss. Overshooting is the failure: 105–115% of target is 🟡, above 115% is 🔴. A down week run at full volume is the block breaking, and the dot should say so.
+
+Judge on running volume only — never fold bike or swim into the comparison. Put the dot in a narrow `center`-aligned column with an empty header, and add a `caption` to the table as the legend so the dots are never unexplained: `"🟢 hit · 🟡 within 10% · 🔴 missed"`.
 
 **Use `marked` (highlight) on exactly one number per section** — the rep pace in Today, the key stat in Yesterday, the km remaining in the week, the two numbers in the bottom blockquote. It is a spotlight; overuse kills it.
 
@@ -116,9 +135,9 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
   {"type":"heading","size":5,"text":"Today"},
   {"type":"paragraph","text":[{"type":"bold","text":"DR track"}," — run it as the club sets it."]},
   {"type":"list","items":[
-    {"blocks":[{"type":"paragraph","text":["Warm-up 3k @",{"type":"marked","text":"5:20–5:40"}]}]},
-    {"blocks":[{"type":"paragraph","text":["Reps ~6k @3:15–3:45"]}]},
-    {"blocks":[{"type":"paragraph","text":["Cool-down 2k @5:30–5:50"]}]}]},
+    {"blocks":[{"type":"paragraph","text":["Warm-up 3k"]}]},
+    {"blocks":[{"type":"paragraph","text":["Reps ~6k @",{"type":"marked","text":"3:15–3:45"}]}]},
+    {"blocks":[{"type":"paragraph","text":["Cool-down 2k"]}]}]},
 
   {"type":"heading","size":5,"text":"Yesterday"},
   {"type":"paragraph",
@@ -156,7 +175,7 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
         [{"text":"Sat · parkrun","align":"left","valign":"middle"},
          {"text":"19:00 @3:48/km + WU/CD","align":"left","valign":"middle"}],
         [{"text":"Sun · long run","align":"left","valign":"middle"},
-         {"text":"22k · 4k WU @5:00–5:20, 3×3k @4:15 off 1k float @5:00, 3k CD · 9k MP","align":"left","valign":"middle"}],
+         {"text":"22k · 4k WU, 3×3k @4:15 off 1k float, 3k CD · 9k MP","align":"left","valign":"middle"}],
         [{"text":"Easy Mon–Fri","align":"left","valign":"middle"},
          {"text":"~36k @5:10–5:30","align":"left","valign":"middle"}]]}]},
 
@@ -164,41 +183,45 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
    "summary":[{"type":"bold","text":"Past weeks"}],
    "blocks":[
      {"type":"table","is_bordered":true,"is_striped":true,
+      "caption":"🟢 hit · 🟡 within 10% · 🔴 missed",
       "cells":[
         [{"text":"Wk","is_header":true,"align":"center","valign":"middle"},
          {"text":"w/c","is_header":true,"align":"left","valign":"middle"},
          {"text":"Target","is_header":true,"align":"right","valign":"middle"},
-         {"text":"Actual","is_header":true,"align":"right","valign":"middle"}],
-        [{"text":"Pre","align":"center","valign":"middle"},{"text":"17 Aug","align":"left","valign":"middle"},{"text":"—","align":"right","valign":"middle"},{"text":"56.2k","align":"right","valign":"middle"}],
-        [{"text":"Pre","align":"center","valign":"middle"},{"text":"10 Aug","align":"left","valign":"middle"},{"text":"—","align":"right","valign":"middle"},{"text":"72.4k","align":"right","valign":"middle"}],
-        [{"text":"Pre","align":"center","valign":"middle"},{"text":"3 Aug","align":"left","valign":"middle"},{"text":"—","align":"right","valign":"middle"},{"text":"72.0k","align":"right","valign":"middle"}],
-        [{"text":"Pre","align":"center","valign":"middle"},{"text":"27 Jul","align":"left","valign":"middle"},{"text":"—","align":"right","valign":"middle"},{"text":"91.8k","align":"right","valign":"middle"}],
-        [{"text":"Pre","align":"center","valign":"middle"},{"text":"20 Jul","align":"left","valign":"middle"},{"text":"—","align":"right","valign":"middle"},{"text":"92.7k","align":"right","valign":"middle"}]]}]},
+         {"text":"Actual","is_header":true,"align":"right","valign":"middle"},
+         {"text":"","is_header":true,"align":"center","valign":"middle"}],
+        [{"text":"4 ↓","align":"center","valign":"middle"},{"text":"14 Sep","align":"left","valign":"middle"},{"text":"65k","align":"right","valign":"middle"},{"text":"61.4k","align":"right","valign":"middle"},{"text":"🟢","align":"center","valign":"middle"}],
+        [{"text":"3","align":"center","valign":"middle"},{"text":"7 Sep","align":"left","valign":"middle"},{"text":"85k","align":"right","valign":"middle"},{"text":"78.1k","align":"right","valign":"middle"},{"text":"🟡","align":"center","valign":"middle"}],
+        [{"text":"2","align":"center","valign":"middle"},{"text":"31 Aug","align":"left","valign":"middle"},{"text":"78k","align":"right","valign":"middle"},{"text":"79.3k","align":"right","valign":"middle"},{"text":"🟢","align":"center","valign":"middle"}],
+        [{"text":"1","align":"center","valign":"middle"},{"text":"24 Aug","align":"left","valign":"middle"},{"text":"70k","align":"right","valign":"middle"},{"text":"58.6k","align":"right","valign":"middle"},{"text":"🔴","align":"center","valign":"middle"}],
+        [{"text":"Pre","align":"center","valign":"middle"},{"text":"17 Aug","align":"left","valign":"middle"},{"text":"—","align":"right","valign":"middle"},{"text":"56.2k","align":"right","valign":"middle"},{"text":"—","align":"center","valign":"middle"}]]}]},
 
   {"type":"details","is_open":false,
    "summary":[{"type":"bold","text":"Full plan"}," · Valencia 2026"],
    "blocks":[
      {"type":"table","is_bordered":true,"is_striped":true,
+      "caption":"🟢 hit · 🟡 within 10% · 🔴 missed · ▶ now",
       "cells":[
         [{"text":"Wk","is_header":true,"align":"center","valign":"middle"},
-         {"text":"Week commencing","is_header":true,"align":"left","valign":"middle"},
+         {"text":"w/c","is_header":true,"align":"left","valign":"middle"},
          {"text":"Target","is_header":true,"align":"right","valign":"middle"},
-         {"text":"Sunday long run","is_header":true,"align":"left","valign":"middle"}],
-        [{"text":"1","align":"center","valign":"middle"},{"text":"24 Aug","align":"left","valign":"middle"},{"text":"70k","align":"right","valign":"middle"},{"text":"20k easy @4:50–5:10","align":"left","valign":"middle"}],
-        [{"text":"2","align":"center","valign":"middle"},{"text":"31 Aug","align":"left","valign":"middle"},{"text":"78k","align":"right","valign":"middle"},{"text":"22k · 3×3k @4:15 off 1k float","align":"left","valign":"middle"}],
-        [{"text":"3","align":"center","valign":"middle"},{"text":"7 Sep","align":"left","valign":"middle"},{"text":"85k","align":"right","valign":"middle"},{"text":"24k @4:50–5:10","align":"left","valign":"middle"}],
-        [{"text":"4 ↓","align":"center","valign":"middle"},{"text":"14 Sep","align":"left","valign":"middle"},{"text":"65k","align":"right","valign":"middle"},{"text":"18k easy","align":"left","valign":"middle"}],
-        [{"text":"5","align":"center","valign":"middle"},{"text":"21 Sep","align":"left","valign":"middle"},{"text":"88k","align":"right","valign":"middle"},{"text":"26k · 4×3k @4:15 off 1k float","align":"left","valign":"middle"}],
-        [{"text":"6","align":"center","valign":"middle"},{"text":"28 Sep","align":"left","valign":"middle"},{"text":"95k","align":"right","valign":"middle"},{"text":"28k · 3×5k @4:15 off 1k float","align":"left","valign":"middle"}],
-        [{"text":"7","align":"center","valign":"middle"},{"text":"5 Oct","align":"left","valign":"middle"},{"text":"100k","align":"right","valign":"middle"},{"text":"30k · 2×8k @4:15 off 2k float","align":"left","valign":"middle"}],
-        [{"text":"8 ↓","align":"center","valign":"middle"},{"text":"12 Oct","align":"left","valign":"middle"},{"text":"75k","align":"right","valign":"middle"},{"text":"HM tune-up race","align":"left","valign":"middle"}],
-        [{"text":"9","align":"center","valign":"middle"},{"text":"19 Oct","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"27k 🎂 · 3×6k @4:15 off 1k float","align":"left","valign":"middle"}],
-        [{"text":"10","align":"center","valign":"middle"},{"text":"26 Oct","align":"left","valign":"middle"},{"text":"110k","align":"right","valign":"middle"},{"text":"34k · 2×10k @4:15 off 2k float","align":"left","valign":"middle"}],
-        [{"text":"11","align":"center","valign":"middle"},{"text":"2 Nov","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"35k · 22k @4:15 continuous","align":"left","valign":"middle"}],
-        [{"text":"12 ↓","align":"center","valign":"middle"},{"text":"9 Nov","align":"left","valign":"middle"},{"text":"80k","align":"right","valign":"middle"},{"text":"25k","align":"left","valign":"middle"}],
-        [{"text":"13","align":"center","valign":"middle"},{"text":"16 Nov","align":"left","valign":"middle"},{"text":"85k","align":"right","valign":"middle"},{"text":"28k sharpen","align":"left","valign":"middle"}],
-        [{"text":"14","align":"center","valign":"middle"},{"text":"23 Nov","align":"left","valign":"middle"},{"text":"60k","align":"right","valign":"middle"},{"text":"22k taper","align":"left","valign":"middle"}],
-        [{"text":"15","align":"center","valign":"middle"},{"text":"30 Nov","align":"left","valign":"middle"},{"text":"35k + race","align":"right","valign":"middle"},{"text":"Valencia 🏁","align":"left","valign":"middle"}]]}]},
+         {"text":"Sunday long run","is_header":true,"align":"left","valign":"middle"},
+         {"text":"","is_header":true,"align":"center","valign":"middle"}],
+        [{"text":"1","align":"center","valign":"middle"},{"text":"24 Aug","align":"left","valign":"middle"},{"text":"70k","align":"right","valign":"middle"},{"text":"20k easy @4:50–5:10","align":"left","valign":"middle"},{"text":"🔴","align":"center","valign":"middle"}],
+        [{"text":"2","align":"center","valign":"middle"},{"text":"31 Aug","align":"left","valign":"middle"},{"text":"78k","align":"right","valign":"middle"},{"text":"22k · 3×3k @4:15 off 1k float","align":"left","valign":"middle"},{"text":"🟢","align":"center","valign":"middle"}],
+        [{"text":"3","align":"center","valign":"middle"},{"text":"7 Sep","align":"left","valign":"middle"},{"text":"85k","align":"right","valign":"middle"},{"text":"24k @4:50–5:10, last 4k @4:30","align":"left","valign":"middle"},{"text":"🟡","align":"center","valign":"middle"}],
+        [{"text":"4 ↓","align":"center","valign":"middle"},{"text":"14 Sep","align":"left","valign":"middle"},{"text":"65k","align":"right","valign":"middle"},{"text":"18k easy @5:00–5:20","align":"left","valign":"middle"},{"text":"🟢","align":"center","valign":"middle"}],
+        [{"text":"5","align":"center","valign":"middle"},{"text":"21 Sep","align":"left","valign":"middle"},{"text":"88k","align":"right","valign":"middle"},{"text":"26k · 4×3k @4:15 off 1k float","align":"left","valign":"middle"},{"text":"▶","align":"center","valign":"middle"}],
+        [{"text":"6","align":"center","valign":"middle"},{"text":"28 Sep","align":"left","valign":"middle"},{"text":"95k","align":"right","valign":"middle"},{"text":"28k · 3×5k @4:15 off 1k float","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"7","align":"center","valign":"middle"},{"text":"5 Oct","align":"left","valign":"middle"},{"text":"100k","align":"right","valign":"middle"},{"text":"30k · 2×8k @4:15 off 2k float","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"8 ↓","align":"center","valign":"middle"},{"text":"12 Oct","align":"left","valign":"middle"},{"text":"75k","align":"right","valign":"middle"},{"text":"HM tune-up race","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"9","align":"center","valign":"middle"},{"text":"19 Oct","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"27k 🎂 · 3×6k @4:15 off 1k float","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"10","align":"center","valign":"middle"},{"text":"26 Oct","align":"left","valign":"middle"},{"text":"110k","align":"right","valign":"middle"},{"text":"34k · 2×10k @4:15 off 2k float","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"11","align":"center","valign":"middle"},{"text":"2 Nov","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"35k · 22k @4:15 continuous","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"12 ↓","align":"center","valign":"middle"},{"text":"9 Nov","align":"left","valign":"middle"},{"text":"80k","align":"right","valign":"middle"},{"text":"25k easy @5:00–5:20","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"13","align":"center","valign":"middle"},{"text":"16 Nov","align":"left","valign":"middle"},{"text":"85k","align":"right","valign":"middle"},{"text":"28k · 2×5k @4:15 + 3k @4:01–4:08","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"14","align":"center","valign":"middle"},{"text":"23 Nov","align":"left","valign":"middle"},{"text":"60k","align":"right","valign":"middle"},{"text":"22k taper · 5k @4:15","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}],
+        [{"text":"15","align":"center","valign":"middle"},{"text":"30 Nov","align":"left","valign":"middle"},{"text":"35k + race","align":"right","valign":"middle"},{"text":"Valencia 🏁","align":"left","valign":"middle"},{"text":"⚪","align":"center","valign":"middle"}]]}]},
 
   {"type":"blockquote",
    "blocks":[
