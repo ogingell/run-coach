@@ -256,9 +256,25 @@ If training has drifted materially from the block outline — illness, travel, i
 **4. Persist it.** In a cloud run the repository is a fresh clone and every edit is thrown away when the run ends, so an uncommitted change is a lost one. After editing PLAN.md:
 
 ```
-git add PLAN.md && git commit -m "log: <today's date>" && git push origin main
+git add PLAN.md && git commit -m "log: <today's date>" && git push origin HEAD:main
 ```
 
-Run `git status` afterwards and confirm the tree is clean and the push landed. If the push is rejected, pull and retry once. If it still fails **and you recorded a standing instruction this run**, tell him in the message that you've noted it but couldn't save it, and ask him to send it again tomorrow — a silently dropped instruction is the one failure he'll notice. Never commit anything but `PLAN.md`, and never commit if `git status` shows `bin/secrets.env` or `.strava-tokens.json` as tracked; that means `.gitignore` is broken and you should flag it instead.
+**`HEAD:main`, not `main`.** A cloud run checks out a working branch (`claude/…`), so your commit lands there, not on local `main`. `git push origin main` would push the stale local `main` ref and report success while today's edit stayed behind — a silent loss, which is worse than a visible failure. `HEAD:main` pushes whatever branch you're actually on.
+
+Then verify, and don't take the exit code's word for it:
+
+```
+git status                        # tree clean?
+git rev-parse HEAD                # your commit
+git ls-remote origin main         # must match the line above
+```
+
+If those two hashes differ, the push did not land, whatever the output said.
+
+If the push is rejected as non-fast-forward, run `git pull --rebase origin main` and retry once.
+
+**If it still fails, the edit is lost unless you say so.** Assume the container is reclaimed the moment this run ends — a commit sitting on a local branch is gone. So put the *content* somewhere durable: tell Oliver in the Telegram message, in plain words, what you were unable to save and what he needs to do. If it was a standing instruction, ask him to resend it tomorrow. If the failure is a `403` or "doesn't have access", say that it needs the GitHub connection reinstated — that's a human fix and retrying will not help, so don't loop on it.
+
+Never commit anything but `PLAN.md`, and never commit if `git status` shows `bin/secrets.env` or `.strava-tokens.json` as tracked; that means `.gitignore` is broken and you should flag it instead.
 
 If there are no new Strava activities since your last run, don't invent training. Say you've got nothing new and prescribe from the plan alone.
