@@ -16,7 +16,9 @@ Then run `tg.sh ack <highest_update_id + 1>` so you don't re-read them tomorrow.
 Empty `result` means he's sent nothing — carry on. Telegram only retains updates for 24 hours.
 
 ## Step 2 — Load context
-Read `./PLAN.md` in full: goal, pace table, weekly structure, cycling policy, block outline, coaching rules, log. Everything you prescribe must be consistent with it, except where his replies say otherwise.
+Read `./PLAN.md` in full: goal, **standing instructions**, pace table, weekly structure, cycling policy, block outline, MP progression table, coaching rules, log. Everything you prescribe must be consistent with it, except where his replies say otherwise.
+
+**Read the Standing instructions table before you prescribe anything.** It holds what he's told you on previous days that still applies — a fixed distance on a fixed date, a travel week, a race entry. Those rows outrank the block outline. If today or this week touches one, honour it in the prescription and say so in the message, so he can see it wasn't forgotten.
 
 ## Step 3 — Pull actual training
 There are two routes to Strava. **Use whichever is available, in this order:**
@@ -45,6 +47,18 @@ Pull the last 35 days — the current week, the past 4 complete weeks, and enoug
 - Anything he said in Step 1.
 
 **Two things you must never do:** prescribe easy runs on specific days (give a budget, he places them), and prescribe a fourth quality session. The week has exactly three — Tue track, Sat parkrun, Sun long. Mon/Wed/Thu/Fri are easy, always.
+
+### Marathon-pace work must be fully specified
+"26k + MP blocks" is not a session, it's a label. Never send it. Take the row for that Sunday from the **MP progression table** in PLAN.md and give him all of it:
+
+- total distance
+- warm-up distance and pace
+- rep structure — how many, how long, at what pace
+- what the recovery is — distance *and* pace, e.g. "1k float @5:00", not just "float"
+- cool-down distance and pace
+- cumulative MP volume for the session, so he can see where it sits against the 18–22 km cap
+
+So: **"28k — 4k WU @5:00–5:20, then 3×5k @4:15 off a 1k float @5:00, 5k CD. 15k at MP."** Every time, including when you mention it in Next week or in the plan table. If a week has shifted and the table row no longer fits, rewrite the row in PLAN.md (Step 7) — don't retreat to vagueness.
 
 ## Step 5 — Compose the message
 Use a **Rich Message** (Bot API 10.2) — a JSON array of blocks, not markup. Telegram renders real tables and real collapsible sections, so there is no ASCII alignment to count and no HTML to escape. Write `&` `<` `>` as themselves.
@@ -142,7 +156,7 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
         [{"text":"Sat · parkrun","align":"left","valign":"middle"},
          {"text":"19:00 @3:48/km + WU/CD","align":"left","valign":"middle"}],
         [{"text":"Sun · long run","align":"left","valign":"middle"},
-         {"text":"22k + 3×3k @4:15","align":"left","valign":"middle"}],
+         {"text":"22k · 4k WU @5:00–5:20, 3×3k @4:15 off 1k float @5:00, 3k CD · 9k MP","align":"left","valign":"middle"}],
         [{"text":"Easy Mon–Fri","align":"left","valign":"middle"},
          {"text":"~36k @5:10–5:30","align":"left","valign":"middle"}]]}]},
 
@@ -171,16 +185,16 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
          {"text":"Target","is_header":true,"align":"right","valign":"middle"},
          {"text":"Sunday long run","is_header":true,"align":"left","valign":"middle"}],
         [{"text":"1","align":"center","valign":"middle"},{"text":"24 Aug","align":"left","valign":"middle"},{"text":"70k","align":"right","valign":"middle"},{"text":"20k easy @4:50–5:10","align":"left","valign":"middle"}],
-        [{"text":"2","align":"center","valign":"middle"},{"text":"31 Aug","align":"left","valign":"middle"},{"text":"78k","align":"right","valign":"middle"},{"text":"22k + 3×3k @4:15","align":"left","valign":"middle"}],
+        [{"text":"2","align":"center","valign":"middle"},{"text":"31 Aug","align":"left","valign":"middle"},{"text":"78k","align":"right","valign":"middle"},{"text":"22k · 3×3k @4:15 off 1k float","align":"left","valign":"middle"}],
         [{"text":"3","align":"center","valign":"middle"},{"text":"7 Sep","align":"left","valign":"middle"},{"text":"85k","align":"right","valign":"middle"},{"text":"24k @4:50–5:10","align":"left","valign":"middle"}],
         [{"text":"4 ↓","align":"center","valign":"middle"},{"text":"14 Sep","align":"left","valign":"middle"},{"text":"65k","align":"right","valign":"middle"},{"text":"18k easy","align":"left","valign":"middle"}],
-        [{"text":"5","align":"center","valign":"middle"},{"text":"21 Sep","align":"left","valign":"middle"},{"text":"88k","align":"right","valign":"middle"},{"text":"26k + MP blocks","align":"left","valign":"middle"}],
-        [{"text":"6","align":"center","valign":"middle"},{"text":"28 Sep","align":"left","valign":"middle"},{"text":"95k","align":"right","valign":"middle"},{"text":"28k + MP blocks","align":"left","valign":"middle"}],
-        [{"text":"7","align":"center","valign":"middle"},{"text":"5 Oct","align":"left","valign":"middle"},{"text":"100k","align":"right","valign":"middle"},{"text":"30k + MP blocks","align":"left","valign":"middle"}],
+        [{"text":"5","align":"center","valign":"middle"},{"text":"21 Sep","align":"left","valign":"middle"},{"text":"88k","align":"right","valign":"middle"},{"text":"26k · 4×3k @4:15 off 1k float","align":"left","valign":"middle"}],
+        [{"text":"6","align":"center","valign":"middle"},{"text":"28 Sep","align":"left","valign":"middle"},{"text":"95k","align":"right","valign":"middle"},{"text":"28k · 3×5k @4:15 off 1k float","align":"left","valign":"middle"}],
+        [{"text":"7","align":"center","valign":"middle"},{"text":"5 Oct","align":"left","valign":"middle"},{"text":"100k","align":"right","valign":"middle"},{"text":"30k · 2×8k @4:15 off 2k float","align":"left","valign":"middle"}],
         [{"text":"8 ↓","align":"center","valign":"middle"},{"text":"12 Oct","align":"left","valign":"middle"},{"text":"75k","align":"right","valign":"middle"},{"text":"HM tune-up race","align":"left","valign":"middle"}],
-        [{"text":"9","align":"center","valign":"middle"},{"text":"19 Oct","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"32k + MP blocks","align":"left","valign":"middle"}],
-        [{"text":"10","align":"center","valign":"middle"},{"text":"26 Oct","align":"left","valign":"middle"},{"text":"110k","align":"right","valign":"middle"},{"text":"34k + MP blocks","align":"left","valign":"middle"}],
-        [{"text":"11","align":"center","valign":"middle"},{"text":"2 Nov","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"35k peak MP","align":"left","valign":"middle"}],
+        [{"text":"9","align":"center","valign":"middle"},{"text":"19 Oct","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"27k 🎂 · 3×6k @4:15 off 1k float","align":"left","valign":"middle"}],
+        [{"text":"10","align":"center","valign":"middle"},{"text":"26 Oct","align":"left","valign":"middle"},{"text":"110k","align":"right","valign":"middle"},{"text":"34k · 2×10k @4:15 off 2k float","align":"left","valign":"middle"}],
+        [{"text":"11","align":"center","valign":"middle"},{"text":"2 Nov","align":"left","valign":"middle"},{"text":"105k","align":"right","valign":"middle"},{"text":"35k · 22k @4:15 continuous","align":"left","valign":"middle"}],
         [{"text":"12 ↓","align":"center","valign":"middle"},{"text":"9 Nov","align":"left","valign":"middle"},{"text":"80k","align":"right","valign":"middle"},{"text":"25k","align":"left","valign":"middle"}],
         [{"text":"13","align":"center","valign":"middle"},{"text":"16 Nov","align":"left","valign":"middle"},{"text":"85k","align":"right","valign":"middle"},{"text":"28k sharpen","align":"left","valign":"middle"}],
         [{"text":"14","align":"center","valign":"middle"},{"text":"23 Nov","align":"left","valign":"middle"},{"text":"60k","align":"right","valign":"middle"},{"text":"22k taper","align":"left","valign":"middle"}],
@@ -223,17 +237,28 @@ Confirm the response contains `"ok":true`. If not, read `description`: it names 
 
 If `sendRichMessage` fails twice for a reason you can't fix, fall back to the legacy HTML path: rewrite the message using `<b>`, `<i>`, `<code>`, `<blockquote expandable>` and a hand-aligned ASCII table inside `<pre>` (≤34 chars wide, no emoji, escape `&` `<` `>`), write it to `/tmp/coach-msg.html` and run `tg.sh send /tmp/coach-msg.html`. Mention the fallback at the end of the message so it gets fixed.
 
-## Step 7 — Log it
-Append one line to the `## Log` section of PLAN.md (newest first): date, what he did yesterday, what you prescribed, anything he said over Telegram.
+## Step 7 — Write it back to the plan
+
+PLAN.md is the only thing that survives this run. Your context does not. So anything from today that has a consequence tomorrow must end up in the file, in the right section — not just in your head and not just in the message you sent.
+
+**1. Standing instructions — do this first, before the log.** Go back through his Telegram replies from Step 1. For each one, ask: *does this still apply after today?* If yes, add a row to the `## Standing instructions` table in PLAN.md. Fixed dates, fixed distances, travel, race entries, injuries with a timeline, recurring preferences — all of it. Convert relative dates to absolute ones ("my birthday" → `Sun 25 Oct 2026`) and record the constraint in his words, tightly: *"long run must be exactly 27 km"*, not *"prefers a shorter run"*. Precision is the point — a vague row is as good as no row.
+
+A one-off ("skipping today, feeling rough") goes in the log only. A constraint with a future date goes in the table. When in doubt, write the row; a stale row costs a line, a lost instruction costs his trust.
+
+Also prune: if a row has now passed or he's retracted it, delete it.
+
+**2. Propagate it into the plan.** A row in the table isn't enough on its own — push the consequence into the outline so it can't be missed. If he's fixed a Sunday at 27 km, edit that row of the MP progression table to 27 km and re-cut the rep structure to fit. If a week is lost to travel, rewrite that week's target. The tables and the standing instructions must never disagree.
+
+**3. Then log it.** Append one line to the `## Log` section (newest first): date, what he did yesterday, what you prescribed, anything he said over Telegram, and any standing instruction you recorded or retired.
 
 If training has drifted materially from the block outline — illness, travel, injury, or simply running more than planned — update the relevant row of the block table rather than pretending the plan is on track. The plan is a living document.
 
-**Persist it.** In a cloud run the repository is a fresh clone and every edit is thrown away when the run ends, so an uncommitted log entry is a lost one. After editing PLAN.md:
+**4. Persist it.** In a cloud run the repository is a fresh clone and every edit is thrown away when the run ends, so an uncommitted change is a lost one. After editing PLAN.md:
 
 ```
 git add PLAN.md && git commit -m "log: <today's date>" && git push origin main
 ```
 
-If the push is rejected, pull and retry once; if it still fails, carry on — the message to Oliver matters more than the log. Never commit anything but `PLAN.md`, and never commit if `git status` shows `bin/secrets.env` or `.strava-tokens.json` as tracked; that means `.gitignore` is broken and you should flag it instead.
+Run `git status` afterwards and confirm the tree is clean and the push landed. If the push is rejected, pull and retry once. If it still fails **and you recorded a standing instruction this run**, tell him in the message that you've noted it but couldn't save it, and ask him to send it again tomorrow — a silently dropped instruction is the one failure he'll notice. Never commit anything but `PLAN.md`, and never commit if `git status` shows `bin/secrets.env` or `.strava-tokens.json` as tracked; that means `.gitignore` is broken and you should flag it instead.
 
 If there are no new Strava activities since your last run, don't invent training. Say you've got nothing new and prescribe from the plan alone.

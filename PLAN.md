@@ -12,6 +12,15 @@ Block starts Mon 24 Aug 2026 — 15 weeks.
 - Club: DR (track session Tuesday evenings)
 - parkrun tourist — 39 different events, collects new ones
 
+## Standing instructions
+Things Oliver has told the coach that apply beyond the day he said them. **These outrank the block outline.** Anything he says over Telegram that has a future consequence — a fixed date, a travel week, a race entry, a recurring constraint, a preference — belongs here, not only in the log. The log is a diary; this is the contract.
+
+| Date given | Instruction | Applies |
+|---|---|---|
+| 2026-09-24 | **Sun 25 Oct 2026 is his birthday — the long run must be exactly 27 km.** Not 26, not 28. Structure the MP work to fit 27k. | W9 Sunday |
+
+Format: date given · the instruction in his terms · when it bites. Remove a row only once it has passed or he has retracted it.
+
 ## Paces (derived from 17:48 5k)
 | Zone | Pace /km |
 |---|---|
@@ -75,7 +84,7 @@ Watch for: a big weekend ride landing the day before a key session, or bike volu
 | 6 | 28 Sep–4 Oct | Build | 95 |
 | 7 | 5–11 Oct | Build | 100 |
 | 8 | 12–18 Oct | **Down week** + tune-up race | 75 |
-| 9 | 19–25 Oct | Peak block | 105 |
+| 9 | 19–25 Oct | Peak block — Sun 25 Oct is his birthday, long run fixed at 27k | 105 |
 | 10 | 26 Oct–1 Nov | Peak | 110 |
 | 11 | 2–8 Nov | Peak / longest MP session | 105 |
 | 12 | 9–15 Nov | **Down week** | 80 |
@@ -86,6 +95,28 @@ Watch for: a big weekend ride landing the day before a key session, or bike volu
 Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From week 5 it carries the MP work, since it's the only long session available.
 
 **MP volume is capped at 18–22 km cumulative in a single long run at peak** — lower than a typical marathon build. This is the deliberate cost of keeping full-effort track every Tuesday plus a threshold parkrun every Saturday. Don't push past it; three quality days a week only works if none of them is maximal.
+
+### Sunday long run — MP progression
+"MP blocks" is not a prescription. Every Sunday is specified here as **total distance · rep structure · pace · recovery · cumulative MP**, and that is how it must reach him. MP = 4:15/km unless stated.
+
+| Wk | Sun | Total | Structure | MP km |
+|---|---|---|---|---|
+| 1 | 30 Aug | 20k | all easy @4:50–5:10 | 0 |
+| 2 | 6 Sep | 22k | 4k WU @5:00–5:20 · 3×3k @4:15 off 1k float @5:00 · 3k CD | 9 |
+| 3 | 13 Sep | 24k | all aerobic @4:50–5:10, last 4k @4:30 | 0 |
+| 4 ↓ | 20 Sep | 18k | all easy @5:00–5:20 | 0 |
+| 5 | 27 Sep | 26k | 4k WU · 4×3k @4:15 off 1k float @5:00 · 4k CD | 12 |
+| 6 | 4 Oct | 28k | 4k WU · 3×5k @4:15 off 1k float @5:00 · 5k CD | 15 |
+| 7 | 11 Oct | 30k | 5k WU · 2×8k @4:15 off 2k float @5:00 · 5k CD | 16 |
+| 8 ↓ | 18 Oct | ~23k | HM tune-up race + WU/CD — validates MP | — |
+| 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float @5:00 · 2k CD — **birthday, fixed distance** | 18 |
+| 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float @5:00 · 6k CD | 20 |
+| 11 | 8 Nov | 35k | 11k easy @4:50–5:10 · then 22k @4:15 continuous (may split 11k/11k off a 1k float) · 2k CD | 22 |
+| 12 ↓ | 15 Nov | 25k | all easy @5:00–5:20 | 0 |
+| 13 | 22 Nov | 28k | 4k WU · 2×5k @4:15 off 1k float · 3k @4:01–4:08 · 4k CD | 13 |
+| 14 | 29 Nov | 22k | 15k easy @5:00–5:20 · 5k @4:15 · 2k CD | 5 |
+
+If a week shifts, rewrite the affected row here — don't fall back to the phrase "MP blocks".
 
 Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 
