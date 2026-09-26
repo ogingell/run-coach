@@ -141,6 +141,8 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-09-26** — No Telegram replies. W5 (21–27 Sep, 88k target) to date: 53.1k run banked Mon–Thu (13.9k Mon, 21.0k Tue incl. DR Hell Hills 11.0k, 8.2k Wed, 10.0k Thu), Fri a clean bike-only rest day. Easy Mon–Fri budget (42k) spent almost exactly (42.1k). Prescribed today: parkrun @19:00/3:48 + WU/CD (~9k). Tomorrow (Sun): 26k — 4k WU · 4×3k @4:15 off 1k float · 4k CD, 12k MP, per plan. Past 4 block weeks all 🟢 (W1 70.0/70k, W2 78.0/78k, W3 89.6/85k, W4↓ 65.0/65k) — no drift, plan on track. Standing instruction (27 Oct birthday, 27k fixed W9 Sun) unchanged, still applies.
+
 - **2026-08-23 (6)** — Pre-block closes: 56.2k run, 87.5k bike. Today: 17.2k recovery @6:26/km, cad 82, HR 136. W1 starts tomorrow (70k). Telegram: Oliver asked to "turn Sunday into a session" — pushed back: W1 Sunday stays 20k easy @4:50–5:10; MP blocks start W2 (22k + 3×3k @4:15). Offered to extend to 22k easy if he has time.
 - **2026-08-23 (5)** — Pre-block week closed: 56.2k run, 87.5k bike. Today: 17.2k recovery @6:27/km. Parkrun PB 17:48 @3:33/km flagged (race pace not tempo — next Sat target back to 19:00). W1 preview sent: 70k, DR track Tue, parkrun @3:48 Sat, 20k long @4:50–5:10 Sun, ~30k easy Mon–Fri @5:10–5:30. No Telegram messages.
 - **2026-08-23 (4)** — Today: 17.2k recovery @6:27/km HR136/153, cad 82. Parkrun PB 17:48 @3:33/km Sat (splits 3:35/3:31/3:37/3:35/3:28, neg split, HR163/189). W1 set (70k): DR track Tue club-set, parkrun @3:48 Sat (flagged back to 19:00 — PB was a race not a tempo), 20k long @4:50–5:10 Sun, 30k easy @5:10–5:30 Mon–Fri. No Telegram messages.
