@@ -108,10 +108,10 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 3 | 13 Sep | 24k | all aerobic @4:50–5:10, last 4k @4:30 | 0 |
 | 4 ↓ | 20 Sep | 18k | all easy @5:00–5:20 | 0 |
 | 5 | 27 Sep | 26k | 4k WU · 4×3k @4:15 off 1k float · 4k CD | 12 |
-| 6 | 4 Oct | 28k | 4k WU · 3×5k @4:15 off 1k float · 5k CD | 15 |
-| 7 | 11 Oct | 30k | 5k WU · 2×8k @4:15 off 2k float · 5k CD | 16 |
+| 6 | 4 Oct | 28k | 6k WU · 3×5k @4:15 off 1k float · 5k CD | 15 |
+| 7 | 11 Oct | 30k | 6k WU · 2×8k @4:15 off 2k float · 6k CD | 16 |
 | 8 ↓ | 18 Oct | ~23k | HM tune-up race + WU/CD — validates MP | — |
-| 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float · 2k CD — **birthday, fixed distance** | 18 |
+| 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float · 3k CD — **birthday, fixed distance** | 18 |
 | 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float · 6k CD | 20 |
 | 11 | 8 Nov | 35k | 11k easy @4:50–5:10 · then 22k @4:15 continuous (may split 11k/11k off a 1k float) · 2k CD | 22 |
 | 12 ↓ | 15 Nov | 25k | all easy @5:00–5:20 | 0 |
@@ -141,6 +141,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-10-04** — No Telegram replies. W6 to date (Mon–Sat) 68.7k run, bike 19.8k (57m), swim none; Tue track not run (skipped, per his 1 Oct reply). Sat parkrun #88 18:29 @3:38 (3rd sub-18:30 in 4 weeks) + 3.1k WU/CD — flagged in footer: hold 19:00/3:48 and keep easy days easy. Mon–Fri ran 60.5k vs ~37k easy budget; W6 projects ~96.7k vs 85k (no row change). Prescribed today: Sun 28k — 6k WU, 3×5k @4:15 off 1k float, 5k CD, 15k MP. Fixed arithmetic in MP table: W6 WU 4→6k, W7 WU 5→6k and CD 5→6k (30k), W9 CD 2→3k (27k exactly). Next week W7 (100k): easy ~50k. Past 5 weeks all 🟢. Standing instruction unchanged. Strava via MCP.
 - **2026-10-03** — No Telegram replies. W6 to date 60.5k run (Fri 2 Oct 8.2k easy @5:22), bike 19.8k, swim none; Tue track still unlogged. Mon–Fri ran ~12.5k over the 48k easy budget (incl. 6.6k Mon pacing). Prescribed today: parkrun @3:48 (19:00) + ~2k WU/CD, no extra easy. W6 projects ~97k vs 85k target (no row change). Sun 28k — 4k WU, 3×5k @4:15 off 1k float, 5k CD, 15k MP. Next week W7 (100k): Sun 30k — 5k WU, 2×8k @4:15 off 2k float, 5k CD, 16k MP; easy ~50k. Footer flagged overshoot + hold paces. Past 5 weeks all 🟢. Standing instruction unchanged. Strava via MCP.
 - **2026-10-02** — No Telegram replies. W6 to date 52.3k run (Mon 12.1k, Tue 20.3k commutes, Wed 9.9k, Thu 9.9k commute @5:08), bike 19.8k, swim none; Tue track still unlogged. Mon–Fri easy budget (48k) already spent. Prescribed today: rest or ≤5k shakeout @5:30–6:00. W6 projected ~89k vs 85k target (no row change). Sat parkrun @3:48 + WU/CD; Sun 28k — 4k WU, 3×5k @4:15 off 1k float, 5k CD, 15k MP. Next week W7 (100k): Sun 30k — 5k WU, 2×8k @4:15 off 2k float, 5k CD, 16k MP; easy ~50k; footer flagged the ~12% jump. Past 5 weeks all 🟢. Standing instruction unchanged. Strava via MCP (strava.sh lacks credentials).
 - **2026-10-01** — Telegram: "Skipped track but will add some easy mileage." (confirms Tue 29 Sep track skipped; W6 target stays 85k, no row change; one-off, no standing instruction). W6 to date 42.3k run (Wed 30 Sep 9.9k commute @5:35), bike 10.0k, swim none. Prescribed today: easy, budget-only @5:10–5:30, ~6k left Thu–Fri; footer told him not to chase the lost track km. Sat parkrun @3:48 + WU/CD; Sun 28k — 4k WU, 3×5k @4:15 off 1k float, 5k CD, 15k MP. Next week W7 (100k): Sun 30k — 5k WU, 2×8k @4:15 off 2k float, 5k CD, 16k MP; easy ~50k. Past 5 weeks all 🟢. Standing instruction unchanged. Strava via MCP.
