@@ -82,9 +82,18 @@ Write an `InputRichMessage` object — `{"blocks": [ … ]}` — to `/tmp/coach-
 7. `heading` size 5 `"This week"` → a **`table`** of the three quality sessions with status, then one `paragraph` with the easy budget and running total.
 8. `details`, `is_open: false` — **Next week** — contains a `table` of next week's sessions and easy budget.
 9. `details`, `is_open: false` — **Past weeks** — `table` of the last 5 complete weeks (newest first): Wk · w/c · Target · Actual · status dot. Pre-block weeks show `—` in Target and no dot. Block weeks show target vs actual; no written comment in the table — the numbers and the dot speak.
-10. `details`, `is_open: false` — **Full plan** — contains the 15-week block `table` (week · w/c · target km · Sunday long run · status dot). Take the Sunday column verbatim from the MP progression table in PLAN.md so the two never drift.
-11. `blockquote` — concise countdown at the bottom: X days · X Sunday long runs until Valencia.
-11. `footer` — the standing invitation to reply, or a flag if one is warranted.
+10. `details`, `is_open: false` — **Progress report** — the long-form written assessment (spec below). This is where the detail lives, so the top of the message stays short.
+11. `details`, `is_open: false` — **Full plan** — contains the 15-week block `table` (week · w/c · target km · Sunday long run · status dot). Take the Sunday column verbatim from the MP progression table in PLAN.md so the two never drift.
+12. `blockquote` — concise countdown at the bottom: X days · X Sunday long runs until Valencia.
+13. `footer` — the standing invitation to reply, or a flag if one is warranted.
+
+**The Progress report (expanded detail).** Everything above stays terse; this collapsed section is where you write properly. Summary: `**Progress report** · how it's going`. Inside, short headed sections (`heading` size 6), each one to three real paragraphs in prose, specific and numeric, no filler:
+- **Last 7 days** — what he actually ran vs what was prescribed, session by session: paces, how reps progressed, HR, cadence, relative effort, and what his own activity description said about how it felt. Name what went well and what didn't.
+- **Block so far** — week-by-week trend across all block weeks: volume vs target, quality sessions banked, long-run and MP progression (cumulative MP km to date vs the 18–22 km cap), parkrun times and whether they stayed at tempo, easy-pace drift, track consistency.
+- **Fatigue and risk** — easy pace, cadence, effort scores, stacked hard days, bike load, missed sessions, anything trending the wrong way. Say plainly if there's nothing to worry about.
+- **Race outlook** — current best estimate for Valencia (central time, sub-3 probability) and exactly what moved it since last time. Refer to his evidence: best half (Hackney 1:23:10, 17 May 2026), marathon PB (Tallinn 3:13:35, Sep 2025), recent MP sessions, any standing-instruction race such as the 18 Oct solo half. Revise the estimate only when evidence changes; don't wobble daily.
+- **Next two weeks** — what the coming sessions are testing, and what result would raise or lower confidence.
+Use a compact `table` inside it where numbers beat prose (e.g. recent long runs: date · structure · actual pace · effort). Be honest and direct; this is the coach's reasoning, not a pep talk. It is allowed to be long, but every sentence must carry information.
 
 **The sport table — this week so far.** Mon 00:00 to now. One row per sport he actually did (omit a sport entirely if nothing), then a bold `Total` row for time. Columns: Sport, Time, Dist. Time as `4h12`, or `48m` under an hour. **No targets** — it records what he did, nothing else.
 
@@ -241,7 +250,7 @@ Schema rules that will bite you:
 - **`align` and `valign` are required on every table cell.** Use `left`/`center`/`right` and `middle`.
 - `cells` is row-major: an array of rows, each an array of cells. `is_header: true` on the top row. Max 20 columns; each row counts toward the 500-block limit.
 - Emoji is fine now — the table is real, nothing is hand-aligned. Keep it sparse anyway.
-- Under 3,000 characters of visible text.
+- Keep the always-visible part (everything outside collapsed `details`) under 3,000 characters. The collapsed Progress report may run longer, but keep the whole message under 8,000 characters of visible text.
 
 If something warrants a flag — fatigue, easy pace creeping under 4:50, parkrun run too hard, a decision like entering the October tune-up half — put it in the `footer` in place of the standing reply line. One flag maximum; a flag every day is noise, and he'll stop reading them.
 
