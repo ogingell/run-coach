@@ -17,7 +17,7 @@ Things Oliver has told the coach that apply beyond the day he said them. **These
 
 | Date given | Instruction | Applies |
 |---|---|---|
-| 2026-10-11 | **Sun 18 Oct 2026: solo half marathon at Battersea (no race entry), aiming UNDER 4:10/km (<1:27:40) — his words, 11 Oct late.** Supersedes the earlier ~4:02 aim. Controlled effort, not all-out. MP blocks stay at 4:15 pending this result. | W8 Sunday |
+| 2026-10-11 | **Sun 18 Oct 2026: solo half marathon at Battersea (no race entry), aiming ~1:25 (4:02/km); his Telegram words: "under 4:10/km" (<1:27:40) — treat 4:10 as the ceiling and anything under it a pass.** Controlled effort, not all-out. MP blocks stay at 4:15 pending this result. | W8 Sunday |
 | 2026-09-24 | **Sun 25 Oct 2026 is his birthday — the long run must be exactly 27 km.** Not 26, not 28. Structure the MP work to fit 27k. | W9 Sunday |
 
 Format: date given · the instruction in his terms · when it bites. Remove a row only once it has passed or he has retracted it.
@@ -86,7 +86,7 @@ Watch for: a big weekend ride landing the day before a key session, or bike volu
 | 5 | 21–27 Sep | Marathon-specific begins | 88 |
 | 6 | 28 Sep–4 Oct | Build (target cut from 95 — Tue 29 Sep track not logged) | 85 |
 | 7 | 5–11 Oct | Build | 100 |
-| 8 | 12–18 Oct | **Down week** + solo HM under 4:10 (<1:27:40), Battersea | 75 |
+| 8 | 12–18 Oct | **Down week** + solo HM aim ~1:25 (4:02–4:08, ceiling 4:10), Battersea | 75 |
 | 9 | 19–25 Oct | Peak block — Sun 25 Oct is his birthday, long run fixed at 27k | 105 |
 | 10 | 26 Oct–1 Nov | Peak | 110 |
 | 11 | 2–8 Nov | Peak / longest MP session | 105 |
@@ -111,7 +111,7 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 5 | 27 Sep | 26k | 4k WU · 4×3k @4:15 off 1k float · 4k CD | 12 |
 | 6 | 4 Oct | 28k | 6k WU · 3×5k @4:15 off 1k float · 5k CD | 15 |
 | 7 | 11 Oct | 30k | 6k WU · 2×8k @4:15 off 2k float · 6k CD | 16 |
-| 8 ↓ | 18 Oct | ~23k | 1k WU · 21.1k solo HM @4:08–4:10 (<1:27:40, Battersea) · 1k CD — controlled, validates MP | 21 |
+| 8 ↓ | 18 Oct | ~23k | 1k WU · 21.1k solo HM @4:02–4:08 (aim ~1:25; <4:10 = pass, Battersea) · 1k CD — controlled, validates MP | 21 |
 | 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float · 3k CD — **birthday, fixed distance** | 18 |
 | 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float · 6k CD | 20 |
 | 11 | 8 Nov | 35k | 11k easy @4:50–5:10 · then 22k @4:15 continuous (may split 11k/11k off a 1k float) · 2k CD | 22 |
@@ -142,6 +142,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-10-11 (resend)** — His 23:37 screen showed only the short W8 ack from the late run (missing sport table, Today/Yesterday/This week, Past weeks, Full plan). Reconciled his two statements (chat: ~1:25 / 4:02; Telegram: under 4:10) into aim ~1:25, ceiling 4:10. Acked Telegram update 197730297. Re-sent full-format message incl. new Progress report. Countdown corrected to 7 Sunday long runs (late run said 8).
 - **2026-10-11 (late)** — Telegram: "solo effort at Battersea, aiming for under 4:10/km for the half". Standing instruction and W8 rows updated from ~4:02 to under 4:10 (<1:27:40); half prescribed @4:08–4:10. No new Strava activities since the eve entry; W7 closed ~100.2k (🟢). Sent short ack + W8 preview.
 
 - **2026-10-11 (chat)** — Telegram/chat: he'll run a solo half around Battersea on Sun 18 Oct aiming ~1:25 (4:02/km). Recorded as standing instruction; W8 Sunday row rewritten (1k WU · 21.1k @4:02 · 1k CD). Context: best half is Hackney 17 May 2026 1:23:10 chip; marathon PB Tallinn Sep 2025 3:13:35. Revised Valencia estimate ~2:57 central, sub-3 ~70%. 4:10 MP blocks declined for now.
