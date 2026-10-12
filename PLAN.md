@@ -142,6 +142,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-10-12** — Telegram (update 197730297, re-delivered): solo effort at Battersea, under 4:10/km — already recorded in standing instructions; no change. Acked. W8↓ (12 Oct, 75k) opens, nothing banked, no new Strava activity since Sun 11 Oct (30.0k, 2×8k @4:15/4:09, effort 153). W7 closed 100.2k (🟢); past 5 (W3–W7) all 🟢. Prescribed today: easy, budget-only @5:10–5:30; easy budget 32k Mon–Fri. Sat parkrun easy jog (~9k), Sun solo HM 21.1k @4:02–4:08 (~23k). Next week W9 (105k): Sun 25 Oct 27k exactly, easy ~58k. Footer: easy is a ceiling, start HM at 4:08. Valencia estimate unchanged ~2:57, sub-3 ~70%. Strava via MCP.
 - **2026-10-11 (resend)** — His 23:37 screen showed only the short W8 ack from the late run (missing sport table, Today/Yesterday/This week, Past weeks, Full plan). Reconciled his two statements (chat: ~1:25 / 4:02; Telegram: under 4:10) into aim ~1:25, ceiling 4:10. Acked Telegram update 197730297. Re-sent full-format message incl. new Progress report. Countdown corrected to 7 Sunday long runs (late run said 8).
 - **2026-10-11 (late)** — Telegram: "solo effort at Battersea, aiming for under 4:10/km for the half". Standing instruction and W8 rows updated from ~4:02 to under 4:10 (<1:27:40); half prescribed @4:08–4:10. No new Strava activities since the eve entry; W7 closed ~100.2k (🟢). Sent short ack + W8 preview.
 
