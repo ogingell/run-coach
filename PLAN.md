@@ -17,7 +17,6 @@ Things Oliver has told the coach that apply beyond the day he said them. **These
 
 | Date given | Instruction | Applies |
 |---|---|---|
-| 2026-10-11 | **Sun 18 Oct 2026: solo half marathon at Battersea (no race entry), aiming ~1:25 (4:02/km); his Telegram words: "under 4:10/km" (<1:27:40) — treat 4:10 as the ceiling and anything under it a pass.** Controlled effort, not all-out. MP blocks stay at 4:15 pending this result. | W8 Sunday |
 | 2026-09-24 | **Sun 25 Oct 2026 is his birthday — the long run must be exactly 27 km.** Not 26, not 28. Structure the MP work to fit 27k. | W9 Sunday |
 
 Format: date given · the instruction in his terms · when it bites. Remove a row only once it has passed or he has retracted it.
@@ -86,7 +85,7 @@ Watch for: a big weekend ride landing the day before a key session, or bike volu
 | 5 | 21–27 Sep | Marathon-specific begins | 88 |
 | 6 | 28 Sep–4 Oct | Build (target cut from 95 — Tue 29 Sep track not logged) | 85 |
 | 7 | 5–11 Oct | Build | 100 |
-| 8 | 12–18 Oct | **Down week** + solo HM aim ~1:25 (4:02–4:08, ceiling 4:10), Battersea | 75 |
+| 8 | 12–18 Oct | **Down week** + solo HM at Battersea — DONE 1:23:57 @3:58 | 75 (actual 75.6) |
 | 9 | 19–25 Oct | Peak block — Sun 25 Oct is his birthday, long run fixed at 27k | 105 |
 | 10 | 26 Oct–1 Nov | Peak | 110 |
 | 11 | 2–8 Nov | Peak / longest MP session | 105 |
@@ -111,7 +110,7 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 5 | 27 Sep | 26k | 4k WU · 4×3k @4:15 off 1k float · 4k CD | 12 |
 | 6 | 4 Oct | 28k | 6k WU · 3×5k @4:15 off 1k float · 5k CD | 15 |
 | 7 | 11 Oct | 30k | 6k WU · 2×8k @4:15 off 2k float · 6k CD | 16 |
-| 8 ↓ | 18 Oct | ~23k | 1k WU · 21.1k solo HM @4:02–4:08 (aim ~1:25; <4:10 = pass, Battersea) · 1k CD — controlled, validates MP | 21 |
+| 8 ↓ | 18 Oct | ~23k | DONE: solo HM 21.11k in 1:23:57 @3:58 (4:02 opening, 3:50–3:54 last 3k), HR 167/197, effort 166 | 21 |
 | 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float · 3k CD — **birthday, fixed distance** | 18 |
 | 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float · 6k CD | 20 |
 | 11 | 8 Nov | 35k | 11k easy @4:50–5:10 · then 22k @4:15 continuous (may split 11k/11k off a 1k float) · 2k CD | 22 |
@@ -142,6 +141,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-10-18 (eve)** — No Telegram replies. Solo Battersea HM done: 21.11k in 1:23:57 @3:58/km (4:02 start, negative split, last 3k 3:50–3:54), HR 167/197, cad 88, effort 166 — beat aim ~1:25 and 4:10 ceiling; his note: sub-3 'on the cards'. W8↓ closed 75.6k vs 75k (🟢): run 5h59, bike 28.7k (1h17), swim none. Past 5 (W3–W7) all 🟢. Next week W9 (105k): Sun 25 Oct 27k exactly — 4k WU, 3×6k @4:15 off 1k float, 3k CD, 18k MP; easy ~58k. Valencia estimate revised ~2:56, sub-3 ~75%. MP stays 4:15. Retired the 18 Oct standing-instruction row. Footer: Monday easy, hold 4:15 in W9. Strava via MCP.
 - **2026-10-18** — No Telegram replies. W8↓ (12 Oct, 75k) to date: 54.5k run (Sat 17 Oct parkrun #90 timed 19:29 @3:51, HR 159/166, 8.3k total, effort 34 — brief was an easy jog, flagged), bike 28.8k (1h17), swim none; Tue track banked. Prescribed today: solo Battersea HM 21.1k @4:02–4:08, start 4:08, 4:10 ceiling (+1k WU/CD); W8 projects ~77.5k vs 75k. Next week W9 (105k): Sun 25 Oct 27k exactly — 4k WU, 3×6k @4:15 off 1k float, 3k CD, 18k MP; easy ~58k. Past 5 (W3–W7) all 🟢. Footer: parkrun was 3:51 not a jog; hold HM at 4:08. Valencia estimate unchanged ~2:57, sub-3 ~70%. Standing instructions unchanged — retire the 18 Oct row once the HM result is logged. Strava via MCP (strava.sh lacks credentials).
 - **2026-10-17** — No Telegram replies. W8↓ (12 Oct, 75k) to date: 46.2k run (Fri 16 Oct 7.6k easy @5:10, cad 84, effort 48; no run Thu), bike 28.8k (1h17), swim none; Tue track banked. Easy used 36.9k of 32k (4.9k over). Prescribed today: easy parkrun jog ~9k @5:10–5:30 (WU/CD ~4k + 5k jog). Sun 18 Oct solo HM ~23k (21.1k @4:02–4:08, 4:10 ceiling); W8 projects ~78k vs 75k. Next week W9 (105k): Sun 25 Oct 27k exactly — 4k WU, 3×6k @4:15 off 1k float, 3k CD, 18k MP; easy ~58k. Past 5 (W3–W7) all 🟢. Footer: start HM at 4:08, 4:10 ceiling. Valencia estimate unchanged ~2:57, sub-3 ~70%. Standing instructions unchanged (18 Oct row retires after tomorrow). Strava via MCP.
 - **2026-10-16** — No Telegram replies. W8↓ (12 Oct, 75k) to date: 38.6k run (no run Thu 15 Oct; bike commute only), bike 28.7k (1h17), swim none; Tue track banked. Easy used 29.3k of 32k, ~2.7k left. Prescribed today: easy/rest, ≤3k shakeout @5:30–6:00. Sat easy parkrun jog ~9k, Sun 18 Oct solo HM ~23k (21.1k @4:02–4:08). Next week W9 (105k): Sun 25 Oct 27k exactly — 4k WU, 3×6k @4:15 off 1k float, 3k CD, 18k MP; easy ~58k. Past 5 (W3–W7) all 🟢. Footer: start HM at 4:08, 4:10 ceiling. Valencia estimate unchanged ~2:57, sub-3 ~70%. Standing instructions unchanged. Strava via MCP.
