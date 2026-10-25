@@ -17,7 +17,6 @@ Things Oliver has told the coach that apply beyond the day he said them. **These
 
 | Date given | Instruction | Applies |
 |---|---|---|
-| 2026-09-24 | **Sun 25 Oct 2026 is his birthday — the long run must be exactly 27 km.** Not 26, not 28. Structure the MP work to fit 27k. | W9 Sunday |
 
 Format: date given · the instruction in his terms · when it bites. Remove a row only once it has passed or he has retracted it.
 
@@ -86,7 +85,7 @@ Watch for: a big weekend ride landing the day before a key session, or bike volu
 | 6 | 28 Sep–4 Oct | Build (target cut from 95 — Tue 29 Sep track not logged) | 85 |
 | 7 | 5–11 Oct | Build | 100 |
 | 8 | 12–18 Oct | **Down week** + solo HM at Battersea — DONE 1:23:57 @3:58 | 75 (actual 75.6) |
-| 9 | 19–25 Oct | Peak block — Sun 25 Oct is his birthday, long run fixed at 27k | 105 |
+| 9 | 19–25 Oct | Peak block — DONE 105.1k | 105 (actual 105.1) |
 | 10 | 26 Oct–1 Nov | Peak | 110 |
 | 11 | 2–8 Nov | Peak / longest MP session | 105 |
 | 12 | 9–15 Nov | **Down week** | 80 |
@@ -111,7 +110,7 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 6 | 4 Oct | 28k | 6k WU · 3×5k @4:15 off 1k float · 5k CD | 15 |
 | 7 | 11 Oct | 30k | 6k WU · 2×8k @4:15 off 2k float · 6k CD | 16 |
 | 8 ↓ | 18 Oct | ~23k | DONE: solo HM 21.11k in 1:23:57 @3:58 (4:02 opening, 3:50–3:54 last 3k), HR 167/197, effort 166 | 21 |
-| 9 | 25 Oct | **27k exactly** | 4k WU · 3×6k @4:15 off 1k float · 3k CD — **birthday, fixed distance** | 18 |
+| 9 | 25 Oct | DONE 27.9k | 4k WU · 3×6k @4:14/4:13/4:11 off 1k floats · CD — birthday run, effort 192, HR 161 | 18 |
 | 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float · 6k CD | 20 |
 | 11 | 8 Nov | 35k | 11k easy @4:50–5:10 · then 22k @4:15 continuous (may split 11k/11k off a 1k float) · 2k CD | 22 |
 | 12 ↓ | 15 Nov | 25k | all easy @5:00–5:20 | 0 |
@@ -141,6 +140,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-10-25 (eve)** — No Telegram replies. Birthday long run done: 27.9k, 3×6k @4:14/4:13/4:11 off 1k floats, HR 161/178, cad 86, effort 192 (block high), his note 'MP finally starting to feel comfortable'. W9 closed 105.1k vs 105k (🟢): run 8h49, bike 18.7k (52m), swim none. Past 5 (W5–W9) all 🟢. Next week W10 (110k): Sun 1 Nov 34k, 6k WU, 2×10k @4:15 off 2k float, 6k CD, 20k MP; easy ~56k. Estimate unchanged ~2:56, sub-3 ~75%. Retired the 25 Oct birthday standing-instruction row. Strava via MCP.
 - **2026-10-25** — No Telegram replies. W9 (19 Oct, 105k) to date: 77.1k run (Sat 24 Oct parkrun #91 18:55 @3:46, effort 31, + 5k WU/CD; Fri rest), bike 18.7k (52m), swim none; total 7h38. Easy used 57.1k of 58k. Prescribed today: Sun 25 Oct 27k exactly — 4k WU, 3×6k @4:15 off 1k float, 3k CD, 18k MP; W9 projects ~104k. Next week W10 (110k): Sun 1 Nov 34k, 6k WU, 2×10k @4:15 off 2k float, 6k CD, 20k MP, easy ~56k. Past 5 (W4–W8) all 🟢. Footer: birthday, hold 4:15. Estimate unchanged ~2:56, sub-3 ~75%. Standing instructions: 25 Oct row bites today; retire tomorrow. Strava via MCP.
 - **2026-10-24** — No Telegram replies. W9 (19 Oct, 105k) to date: 67.2k run (Fri 23 Oct rest, nothing logged), bike 18.7k (52m), swim none; total 6h53. Easy used 57.1k of 58k, 0.9k left. Prescribed today: parkrun @3:48 (19:00) + ~2k WU/CD (~9k). Sun 25 Oct 27k exactly — 4k WU, 3×6k @4:15 off 1k float, 3k CD, 18k MP; W9 projects ~103k. Next week W10 (110k): Sun 1 Nov 34k, 2×10k, easy ~56k. Past 5 (W4–W8) all 🟢. Footer: hold Sat at 19:00. Estimate unchanged ~2:56, sub-3 ~75%. Standing instructions unchanged. Strava via MCP.
 - **2026-10-23** — No Telegram replies. W9 (19 Oct, 105k) to date: 67.2k run incl. 2.8k track WU/CD (Thu 22 Oct 9.6k @5:22 + 8.6k @5:39, cad 83, effort 39/20), bike 18.7k (52m), swim none. Easy used 57.1k of 58k, 0.9k left. Prescribed today: rest or ≤3k shakeout @5:30–6:00. Sat parkrun @3:48 + WU/CD; Sun 25 Oct 27k exactly — 4k WU, 3×6k @4:15 off 1k float, 3k CD, 18k MP. Next week W10 (110k): Sun 1 Nov 34k, 2×10k, easy ~56k. Past 5 (W4–W8) all 🟢. Footer: hold Sat at 19:00. Estimate unchanged ~2:56, sub-3 ~75%. Standing instructions unchanged. Strava via MCP.
