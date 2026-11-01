@@ -86,7 +86,7 @@ Watch for: a big weekend ride landing the day before a key session, or bike volu
 | 7 | 5–11 Oct | Build | 100 |
 | 8 | 12–18 Oct | **Down week** + solo HM at Battersea — DONE 1:23:57 @3:58 | 75 (actual 75.6) |
 | 9 | 19–25 Oct | Peak block — DONE 105.1k | 105 (actual 105.1) |
-| 10 | 26 Oct–1 Nov | Peak | 110 |
+| 10 | 26 Oct–1 Nov | Peak — DONE 110.1k | 110 (actual 110.1) |
 | 11 | 2–8 Nov | Peak / longest MP session | 105 |
 | 12 | 9–15 Nov | **Down week** | 80 |
 | 13 | 16–22 Nov | Sharpen | 85 |
@@ -111,7 +111,7 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 7 | 11 Oct | 30k | 6k WU · 2×8k @4:15 off 2k float · 6k CD | 16 |
 | 8 ↓ | 18 Oct | ~23k | DONE: solo HM 21.11k in 1:23:57 @3:58 (4:02 opening, 3:50–3:54 last 3k), HR 167/197, effort 166 | 21 |
 | 9 | 25 Oct | DONE 27.9k | 4k WU · 3×6k @4:14/4:13/4:11 off 1k floats · CD — birthday run, effort 192, HR 161 | 18 |
-| 10 | 1 Nov | 34k | 6k WU · 2×10k @4:15 off 2k float · 6k CD | 20 |
+| 10 | 1 Nov | DONE 34.0k | 6k WU · 2×10k @4:14/4:15 off 2k float · 6k CD — HR 158–164 max 170, effort 198, 'more cruisy' | 20 |
 | 11 | 8 Nov | 35k | 11k easy @4:50–5:10 · then 22k @4:15 continuous (may split 11k/11k off a 1k float) · 2k CD | 22 |
 | 12 ↓ | 15 Nov | 25k | all easy @5:00–5:20 | 0 |
 | 13 | 22 Nov | 28k | 4k WU · 2×5k @4:15 off 1k float · 3k @4:01–4:08 · 4k CD | 13 |
@@ -140,6 +140,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-11-01 (eve)** — No Telegram replies. Sun long run done: 34.0k, 6k WU, 2×10k @~4:14/4:15 off 2k float (every km 4:08–4:20, HR 158–164, max 170, cad ~85), effort 198, his note 'more cruisy'. W10 closed 110.1k vs 110k (🟢): run 9h19, bike 48.0k (2h15), swim none. Past 5 (W6–W10) all 🟢. Next week W11 (105k): Sun 8 Nov 35k, 11k easy @4:50–5:10, 22k @4:15 continuous, 2k CD; easy ~50k. Countdown 35 days, 4 Sundays. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions. Strava via MCP.
 - **2026-11-01** — No Telegram replies. W10 (26 Oct, 110k) to date: 76.1k run (Sat 31 Oct parkrun #92 18:50 @3:45 effort 39 + 3.7k WU @5:12 + 6.0k CD @6:12; Fri no run), bike 48.0k (2h15), swim none; 9h00 total. Prescribed today: 34k — 6k WU, 2×10k @4:15 off 2k float, 6k CD, 20k MP; W10 lands ~110.1k. Next week W11 (105k): Sun 8 Nov 35k, 11k easy @4:50–5:10, 22k @4:15 continuous, 2k CD; easy ~50k. Past 5 (W5–W9) all 🟢. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions. Strava via MCP.
 - **2026-10-31 (eve)** — No Telegram replies. W10 (26 Oct, 110k) to date: 76.1k run (Fri 30 Oct no run; Sat parkrun #92 18:50 @3:45 effort 39 + 3.7k WU + 6.0k CD @6:12, his note 'extra 10km for the week'), bike 48.0k (2h15), swim none; 9h00 total. Easy used 48.9k of 56k. Sun 1 Nov 34k lands W10 at ~110.1k. Past 5 (W5–W9) all 🟢. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions. Strava via MCP.
 - **2026-10-31** — No Telegram replies. W10 (26 Oct, 110k) to date: 61.3k run (Fri 30 Oct no run, rest; bike commutes only), bike 48.0k (2h15), swim none; 7h45 total. Track banked. Easy used 48.9k of 56k. Prescribed today: parkrun @3:48 (19:00) + ~2k WU/CD; Sun 1 Nov 34k — 6k WU, 2×10k @4:15 off 2k float, 6k CD, 20k MP; W10 projects ~104k. Next week W11 (105k): Sun 8 Nov 35k, 11k easy, 22k @4:15 continuous, 2k CD; easy ~50k. Past 5 (W5–W9) all 🟢. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions. Strava via MCP.
