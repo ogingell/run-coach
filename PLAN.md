@@ -17,6 +17,7 @@ Things Oliver has told the coach that apply beyond the day he said them. **These
 
 | Date given | Instruction | Applies |
 |---|---|---|
+| 2026-11-08 | Entered Kew 10km on Sat 3 Apr 2027 (spring race; Valencia 6 Dec 2026 first). Next goal race is Hackney Half (assumed Sun 16 May 2027, date to confirm); Kew is the ~6-week fitness check, target ~36:30. Post-Valencia block is half-marathon focused (draft in chat 2026-11-08). | After Valencia |
 
 Format: date given · the instruction in his terms · when it bites. Remove a row only once it has passed or he has retracted it.
 
@@ -140,6 +141,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-11-08 (chat)** — Told coach: qualifying standard is 2:52 and won't happen at Valencia; next goal is Hackney Half; entered Kew 10km Sat 3 Apr 2027. Recorded as standing instruction.
 - **2026-11-08 (eve)** — No Telegram replies. Long run done: 35.0k, 11k easy, 22k @4:14 avg continuous (HR 152–162, cad 86), effort 187. W11 closed 106.2k vs 105k (🟢): run 8h50, bike 29.8k (1h23), swim none. Past 5 (W6–W10) all 🟢. Next W12↓ (9 Nov, 80k): Tue track, Sat parkrun, Sun 25k easy @5:00–5:20, easy ~35k. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions.
 - **2026-11-08** — No Telegram replies. W11 (2 Nov, 105k) to date: 71.2k run (Sat parkrun #93 18:49 @3:42 effort 27 + 1.8k jog), bike 29.8k (1h23), swim none; 7h37 total. Prescribed: Sun 8 Nov 35k — 11k easy @4:50–5:10, 22k @4:15 continuous, 2k CD, 22k MP; W11 lands ~106k. Next week W12↓ (9 Nov, 80k): Sun 25k easy @5:00–5:20, easy ~35k. Past weeks W6–W10 all 🟢. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions. Strava via MCP.
 - **2026-11-07 (rerun, post-parkrun)** — No Telegram replies. Strava MCP OK (strava.sh no creds). W11 (2 Nov, 105k) to date: 71.2k run (Fri 6 Nov rest; Sat parkrun #93 18:49 @3:42 effort 27 + 1.8k jog @4:51), bike 29.8k (1h23), swim none; 7h37 total. Easy used 48.9k of 50k. Prescribed: nothing more today; Sun 8 Nov 35k — 11k easy @4:50–5:10, 22k @4:15 continuous, 2k CD; W11 lands ~106k. Next week W12↓ (9 Nov, 80k): Sun 25k easy @5:00–5:20, easy ~35k. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions.
