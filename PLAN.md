@@ -115,7 +115,7 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 10 | 1 Nov | DONE 34.0k | 6k WU · 2×10k @4:14/4:15 off 2k float · 6k CD — HR 158–164 max 170, effort 198, 'more cruisy' | 20 |
 | 11 | 8 Nov | DONE 35.0k | 11k easy · 22k @4:14 continuous (HR 152–162) · 2k CD — effort 187, 'biggest run of the block done' | 22 |
 | 12 ↓ | 15 Nov | 25k | all easy @5:00–5:20 | 0 |
-| 13 | 22 Nov | 28k | 4k WU · 2×5k @4:15 off 1k float · 3k @4:01–4:08 · 4k CD | 13 |
+| 13 | 22 Nov | 28k | 6k WU · 2×5k @4:15 off 1k float · 1k float · 3k @4:01–4:08 · 7k CD | 13 |
 | 14 | 29 Nov | 22k | 15k easy @5:00–5:20 · 5k @4:15 · 2k CD | 5 |
 
 **Don't pace the warm-up, cool-down or floats.** Distances only. He knows what easy feels like and the pace table is above; spelling out "@5:00–5:20" on every support segment clutters the session and buries the number that matters. The pace goes on the work — MP reps, threshold segments, and any run that is *entirely* easy.
@@ -141,6 +141,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-11-11** — No Telegram replies. W12↓ (9 Nov, 80k) to date: 25.9k run (Mon 9.7k commute @5:27; Tue 10 Nov DR track 16.2k — 5k WU, 1600 @3:42, 8×400 @3:15–3:25, 1600 @3:34, 4k CD, HR max 168, effort 46; ran ~5k over the ~11k slot), bike 42.1k (2h04), swim none; 4h15 total. Track banked. Easy ~15k used of 35k, ~20k left Wed–Fri as a ceiling. Prescribed today: easy, budget-only @5:10–5:30. Sun 15 Nov 25k easy @5:00–5:20. Fixed W13 row arithmetic (was 22k, not 28k): now 6k WU · 2×5k @4:15 off 1k float · 1k float · 3k @4:01–4:08 · 7k CD = 28k, 13k MP+; W13 easy ~37k. Past 5 (W7–W11) all 🟢. Footer: keep down week down. Estimate unchanged ~2:56, sub-3 ~75%. Countdown 25 days, 3 Sundays. No standing instructions. Strava via MCP.
 - **2026-11-10** — No Telegram replies. W12↓ (9 Nov, 80k) to date: 9.7k run (Mon 9 Nov commute @5:27, cad 83, effort 29), bike 22.4k (1h07), swim none; 2h00 total. Prescribed today: DR track club-set (~4k WU, ~6k @3:13–3:45, ~1k CD). Easy budget 35k Mon–Fri, ~25k left Wed–Fri; told him not to top up. Sun 15 Nov 25k easy @5:00–5:20. Next week W13 (85k): Sun 22 Nov 28k, 4k WU, 2×5k @4:15 off 1k float, 3k @4:01–4:08, 4k CD, 13k MP; easy ~38k. Past 5 (W7–W11) all 🟢. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions. Strava via MCP.
 - **2026-11-09** — No Telegram replies. W12↓ (9 Nov, 80k) opens, nothing banked; no new Strava since Sun 8 Nov (35.0k, 22k @4:14, effort 187). W11 closed 106.2k (🟢); past 5 (W7–W11) all 🟢. Prescribed today: easy, budget-only ≤~10k @5:30–6:00 recovery; easy budget 35k Mon–Fri. Sun 15 Nov 25k easy @5:00–5:20. Next week W13 (85k): Sun 22 Nov 28k, 4k WU, 2×5k @4:15 off 1k float, 3k @4:01–4:08, 4k CD, 13k MP. Estimate unchanged ~2:56, sub-3 ~75%. No standing instructions. Strava via MCP (strava.sh no creds).
 - **2026-11-08 (chat)** — Told coach: qualifying standard is 2:52 and won't happen at Valencia; next goal is Hackney Half; entered Kew 10km Sat 3 Apr 2027. Recorded as standing instruction.
