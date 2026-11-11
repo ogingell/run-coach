@@ -36,6 +36,26 @@ If neither works, **say so in the Telegram message** rather than inventing numbe
 
 Pull the last 35 days — the current week, the past 4 complete weeks, and enough history for the past-weeks table. Include **every sport, not just runs**; rides and swims count toward the time summary. For any run in the last 3 days that looks hard or unusual, pull the detail rather than trusting the summary. Read his activity *descriptions*; he logs session detail and how he felt there.
 
+## Step 3b — Publish new activities for the app
+
+Oliver's Run Coach app (a separate repo, `run-coach-app`) reads `data/activities.json` from this repo. Keep it current — it takes a minute and it is how the app's Today, History and Report screens stay live.
+
+1. Find where the snapshot ends: `jq -r .latest data/activities.json` (a local timestamp).
+2. From what you pulled in Step 3, take every activity that **starts after that timestamp**, plus any from the last 3 days whose name or description he has since edited. Every sport, not just runs. Usually that is 1–5 activities.
+3. Write them to `/tmp/new-activities.json` as a JSON array in this exact shape (the header of `bin/publish-activities.mjs` documents every field):
+   ```json
+   [{"id":"20938198983","name":"DR Track","desc":"5km WU\n1600m @3:42/km","sport":"Run",
+     "start":"2026-11-10T18:40:40","km":16.16,"moving":4690,"elapsed":6438,"elev":138,
+     "effort":46,"cadence":170,"kudos":6,"wx":{"c":"Rain","t":10}}]
+   ```
+   `start` is his **local** start time, no timezone suffix. `km` is kilometres, times are seconds. `cadence` is steps per minute — Strava reports run cadence per leg, so double it. Omit a field you don't have rather than guessing. Copy `name` and `desc` verbatim.
+4. **Sunday long runs and races only:** add `"splits": [{"km":1,"sec":309,"hr":141}, …]` — one entry per kilometre with its time in seconds and average HR — taken from the activity's per-km laps or splits. If the detail you have isn't per-kilometre, leave `splits` out; never estimate them.
+5. Run `node bin/publish-activities.mjs /tmp/new-activities.json` and check it reports the count you expected.
+
+**Never include GPS data** — no polylines, coordinates or start locations. This repository is public.
+
+If there are no new activities, skip this step. If the script fails or Node isn't available, don't let it hold up the coaching message: carry on, and add one line at the end of the log entry in Step 7 saying the app snapshot wasn't updated and why.
+
 ## Step 4 — Assess
 - Which block week? (Week 1 = 24–30 Aug 2026, weeks run Mon–Sun.) Target running volume?
 - **Running week to date:** km Mon through yesterday, which of the three quality days are banked.
@@ -288,7 +308,7 @@ If training has drifted materially from the block outline — illness, travel, i
 **4. Persist it.** In a cloud run the repository is a fresh clone and every edit is thrown away when the run ends, so an uncommitted change is a lost one. After editing PLAN.md:
 
 ```
-git add PLAN.md && git commit -m "log: <today's date>" && git push origin HEAD:main
+git add PLAN.md data/activities.json data/longruns.json && git commit -m "log: <today's date>" && git push origin HEAD:main
 ```
 
 **`HEAD:main`, not `main`.** A cloud run checks out a working branch (`claude/…`), so your commit lands there, not on local `main`. `git push origin main` would push the stale local `main` ref and report success while today's edit stayed behind — a silent loss, which is worse than a visible failure. `HEAD:main` pushes whatever branch you're actually on.
@@ -307,6 +327,6 @@ If the push is rejected as non-fast-forward, run `git pull --rebase origin main`
 
 **If it still fails, the edit is lost unless you say so.** Assume the container is reclaimed the moment this run ends — a commit sitting on a local branch is gone. So put the *content* somewhere durable: tell Oliver in the Telegram message, in plain words, what you were unable to save and what he needs to do. If it was a standing instruction, ask him to resend it tomorrow. If the failure is a `403` or "doesn't have access", say that it needs the GitHub connection reinstated — that's a human fix and retrying will not help, so don't loop on it.
 
-Never commit anything but `PLAN.md`, and never commit if `git status` shows `bin/secrets.env` or `.strava-tokens.json` as tracked; that means `.gitignore` is broken and you should flag it instead.
+Never commit anything but `PLAN.md` and the two app snapshot files in `data/` (`activities.json`, `longruns.json`), and never commit if `git status` shows `bin/secrets.env` or `.strava-tokens.json` as tracked; that means `.gitignore` is broken and you should flag it instead.
 
 If there are no new Strava activities since your last run, don't invent training. Say you've got nothing new and prescribe from the plan alone.
