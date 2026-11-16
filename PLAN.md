@@ -89,7 +89,7 @@ Watch for: a big weekend ride landing the day before a key session, or bike volu
 | 9 | 19–25 Oct | Peak block — DONE 105.1k | 105 (actual 105.1) |
 | 10 | 26 Oct–1 Nov | Peak — DONE 110.1k | 110 (actual 110.1) |
 | 11 | 2–8 Nov | Peak / longest MP session — DONE 106.2k | 105 (actual 106.2) |
-| 12 | 9–15 Nov | **Down week** | 80 |
+| 12 | 9–15 Nov | **Down week** — DONE 80.6k | 80 (actual 80.6) |
 | 13 | 16–22 Nov | Sharpen | 85 |
 | 14 | 23–29 Nov | Taper | 60 |
 | 15 | 30 Nov–6 Dec | Race week | 35 + race |
@@ -114,7 +114,7 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 9 | 25 Oct | DONE 27.9k | 4k WU · 3×6k @4:14/4:13/4:11 off 1k floats · CD — birthday run, effort 192, HR 161 | 18 |
 | 10 | 1 Nov | DONE 34.0k | 6k WU · 2×10k @4:14/4:15 off 2k float · 6k CD — HR 158–164 max 170, effort 198, 'more cruisy' | 20 |
 | 11 | 8 Nov | DONE 35.0k | 11k easy · 22k @4:14 continuous (HR 152–162) · 2k CD — effort 187, 'biggest run of the block done' | 22 |
-| 12 ↓ | 15 Nov | 25k | all easy @5:00–5:20 | 0 |
+| 12 ↓ | 15 Nov | DONE 25.7k | all easy @5:03 avg ('25 steady', 2h of rain, 202m climb) — HR 149/162, cad 83, effort 90 | 0 |
 | 13 | 22 Nov | 28k | 6k WU · 2×5k @4:15 off 1k float · 1k float · 3k @4:01–4:08 · 7k CD | 13 |
 | 14 | 29 Nov | 22k | 15k easy @5:00–5:20 · 5k @4:15 · 2k CD | 5 |
 
@@ -141,6 +141,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-11-16** — No Telegram replies. Sun 15 Nov long run done: 25.7k @5:03 ('25 steady', torrential rain, 202m climb), HR 149/162, cad 83, effort 90 — top edge of the 5:00–5:20 band, accepted as aerobic. W12↓ closed 80.6k vs 80k (🟢): run 6h45, bike 61.6k (3h01), swim none. W13 (16 Nov, 85k, Sharpen) opens, nothing banked. Prescribed today: easy, budget-only; easy budget 37k Mon–Fri @5:10–5:30 (today @5:30–6:00 fine). Tue DR track club-set; Sat parkrun 19:00 @3:48; Sun 22 Nov 28k, 6k WU, 2×5k @4:15 off 1k float, 1k float, 3k @4:01–4:08, 7k CD, 13k MP. Next week W14 (23 Nov, 60k taper): Sun 29 Nov 22k, 15k easy @5:00–5:20, 5k @4:15, 2k CD, 5k MP; easy ~18k. Past 5 (W8–W12) all 🟢; all 12 block weeks 🟢. Standing reply footer, no flag. Estimate unchanged ~2:56, sub-3 ~75%. Countdown 20 days, 2 Sundays. No standing instructions changed. App snapshot +1 activity (Sun long run, with splits). Strava via MCP.
 - **2026-11-15** — No Telegram replies. W12↓ (9 Nov, 80k) to date: 54.9k run (Sat 14 Nov parkrun #94 17:53 @3:32 — first sub-18 at Dulwich, splits 3:33/3:38/3:35/3:35/3:21, HR 166/179, cad 90, effort 33, + 2.0k WU + 2.8k CD = 9.8k; brief was 19:00, accepted as the down-week all-out), bike 61.6k (3h01), swim none; 7h36 total. Track + parkrun banked. Easy budget spent, 0k left. Prescribed today: Sun 15 Nov 25k easy @5:00–5:20, no MP; W12 lands ~80k. Next week W13 (85k): Sun 22 Nov 28k, 6k WU, 2×5k @4:15 off 1k float, 1k float, 3k @4:01–4:08, 7k CD, 13k MP; easy ~37k. Past 5 (W7–W11) all 🟢. Footer flag: next Sat back to 19:00 before the last MP session. Estimate unchanged ~2:56, sub-3 ~75% (5k doesn't move it). Countdown 21 days, 3 Sundays. No standing instructions changed. App snapshot +3 activities (Sat runs). Strava via MCP.
 - **2026-11-14** — No Telegram replies. W12↓ (9 Nov, 80k) to date: 45.1k run (Fri 13 Nov no run, rest; two bike commutes 19.5k, 56m), bike 61.6k (3h01), swim none; 6h53 total. Track banked. Easy budget (35k) spent, 0k left. Prescribed today: parkrun @3:48 (19:00) + 2k WU / 2k CD (~9k); Sun 15 Nov 25k easy @5:00–5:20; W12 projects ~79k. Next week W13 (85k): Sun 22 Nov 28k, 6k WU, 2×5k @4:15 off 1k float, 1k float, 3k @4:01–4:08, 7k CD, 13k MP; easy ~37k. Past 5 (W7–W11) all 🟢. Standing reply footer, no flag. Estimate unchanged ~2:56, sub-3 ~75%. Countdown 22 days, 3 Sundays. No standing instructions changed. App snapshot +2 activities (Fri rides). Strava via MCP.
 - **2026-11-13** — No Telegram replies. W12↓ (9 Nov, 80k) to date: 45.1k run (Wed 11 Nov rest; Thu 12 Nov commutes 9.7k @5:04, cad 83, effort 35 + 9.4k @5:30, cad 83, effort 23), bike 42.1k (2h04), swim none; 5h57 total. Track banked. Easy used ~34k of 35k (track ran 5k long), ~1k left. Prescribed today: rest or ≤3k shakeout @5:30–6:00; W12 projects ~79k. Sat parkrun @3:48 (19:00) + WU/CD; Sun 15 Nov 25k easy @5:00–5:20. Next week W13 (85k): Sun 22 Nov 28k, 6k WU, 2×5k @4:15 off 1k float, 1k float, 3k @4:01–4:08, 7k CD, 13k MP; easy ~37k. Past 5 (W7–W11) all 🟢. Standing reply footer, no flag. Estimate unchanged ~2:56, sub-3 ~75%. Countdown 23 days, 3 Sundays. No standing instructions changed. App snapshot +2 activities. Strava via MCP.
