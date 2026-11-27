@@ -17,6 +17,7 @@ Things Oliver has told the coach that apply beyond the day he said them. **These
 
 | Date given | Instruction | Applies |
 |---|---|---|
+| 2026-11-27 | Sat 28 Nov parkrun is a **hard effort (~18:00, 3:36/km)**, his call after pushback — start 3:40–3:45, don't chase it if hard. Sun 29 Nov: **play by ear** — keep 22k (15k easy, 5k @4:15, 2k CD) but if legs sore the 5k becomes easy. **Race week W15 (30 Nov–6 Dec): only ~20k easy @5:10–5:30 total, no track, no quality**, Sat 5 Dec short shakeout only. | 28 Nov – 6 Dec 2026 |
 | 2026-11-08 | Entered Kew 10km on Sat 3 Apr 2027 (spring race; Valencia 6 Dec 2026 first). Next goal race is Hackney Half (assumed Sun 16 May 2027, date to confirm); Kew is the ~6-week fitness check, target ~36:30. Post-Valencia block is half-marathon focused (draft in chat 2026-11-08). | After Valencia |
 
 Format: date given · the instruction in his terms · when it bites. Remove a row only once it has passed or he has retracted it.
@@ -116,7 +117,7 @@ Long run progression (Sundays): build 20 → 32–35 km by weeks 10–11. From w
 | 11 | 8 Nov | DONE 35.0k | 11k easy · 22k @4:14 continuous (HR 152–162) · 2k CD — effort 187, 'biggest run of the block done' | 22 |
 | 12 ↓ | 15 Nov | DONE 25.7k | all easy @5:03 avg ('25 steady', 2h of rain, 202m climb) — HR 149/162, cad 83, effort 90 | 0 |
 | 13 | 22 Nov | DONE 28.0k | 7k WU · 3×5k @3:59 (19:59/19:57/19:59) off 1k floats · 4k CD — race-day shoes, HR ~155–171, effort 133; ran faster than the 4:15 brief | 15 |
-| 14 | 29 Nov | 22k | 15k easy @5:00–5:20 · 5k @4:15 · 2k CD | 5 |
+| 14 | 29 Nov | 22k | 15k easy @5:00–5:20 · 5k @4:15 · 2k CD — by ear: if sore after hard Sat parkrun, 5k becomes easy | 5 (or 0) |
 
 **Don't pace the warm-up, cool-down or floats.** Distances only. He knows what easy feels like and the pace table is above; spelling out "@5:00–5:20" on every support segment clutters the session and buries the number that matters. The pace goes on the work — MP reps, threshold segments, and any run that is *entirely* easy.
 
@@ -141,6 +142,7 @@ Suggested tune-up: a half marathon around week 8 (12–18 Oct) to validate MP.
 ## Log
 Newest entries first. The daily task appends here.
 
+- **2026-11-27 (reply)** — Oliver wants a hard parkrun Sat 28 Nov (~18:00) after I pushed back (rule 9); agreed since taper recovers it. Sunday by ear (5k @4:15 optional), W15 only ~20k easy total. Standing instruction recorded.
 - **2026-11-27** — No Telegram replies. Thu 26 Nov: lunch run 6.6k @5:07 (effort 27, cad 83). W14 (23 Nov, 60k) to date: 26.1k run, bike 19.5k; 3h20 total; track skipped. Prescribed today: optional ≤5k easy @5:10–5:30 or rest; Sat parkrun 19:00 @3:48; Sun 29 Nov 22k, 15k easy, 5k @4:15, 2k CD. Projects ~63k. Next W15 race week (~20k easy, Sat shakeout). Past 5 (W9–W13) all 🟢. Standing reply footer, no flag. Estimate ~2:54, sub-3 ~80% unchanged. Countdown 9 days, 1 Sunday. No standing instructions changed. App snapshot +1 activity. Strava via MCP.
 - **2026-11-26** — No Telegram replies. Wed 25 Nov: morning commute run 9.7k @5:34 (effort 34) + evening ride 9.7k. W14 (23 Nov, 60k) to date: 19.4k run, bike 19.5k; 2h46 total. Track skipped. Prescribed today: easy 5–8k or rest @5:10–5:30, ~8k easy left Thu–Fri; Sat parkrun 19:00 @3:48; Sun 29 Nov 22k, 15k easy, 5k @4:15, 2k CD. Next W15 race week (35k + race). Past 5 (W9–W13) all 🟢. Standing reply footer, no flag. Estimate ~2:54, sub-3 ~80% unchanged. Countdown 10 days, 1 Sunday. No standing instructions changed. App snapshot +2 activities. Strava via MCP.
 - **2026-11-25** — No Telegram replies. Tue 24 Nov: no DR track logged; only evening commute run 9.8k @5:42 (effort 20) + morning ride 9.8k. W14 (23 Nov, 60k) to date: 9.8k run, bike 9.8k; 1h24 total. Track not banked — told him not to make it up. Prescribed today: easy, budget-only ~8k left Wed–Fri @5:10–5:30; Sat parkrun 19:00 @3:48; Sun 29 Nov 22k, 15k easy, 5k @4:15, 2k CD (5k MP). Next W15 race week (35k + race; ~20k easy, Sat shakeout). Past 5 (W9–W13) all 🟢. Standing reply footer, no flag. Estimate ~2:54, sub-3 ~80% unchanged. Countdown 11 days, 1 Sunday. No standing instructions changed. App snapshot +2 activities. Strava via MCP.
